@@ -1,0 +1,50 @@
+.customInput {
+  border-radius: 30px !important;
+  height: 50px !important;
+}
+.customBtn{
+    width: 100%;
+    margin:0 !important
+}
+
+.customFont{
+    font-size: 15px;
+    color: #878787
+}
+.react-tel-input{
+    margin-bottom: 2rem !important
+}
+.react-tel-input input {
+  width: 100% !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+}
+
+
+.react-tel-input .flag-dropdown {
+  display: flex !important;
+  justify-content: center !important;
+}
+.flag-dropdown {
+  border: none !important;
+  border-radius: 30px !important;
+  background: none !important;
+}
+.flag-dropdown:focus {
+    border: none !important;
+    border-radius: 30px !important;
+    background: none !important;
+  }
+.selected-flag:hover {
+  border: none !important;
+  border-radius: 30px !important;
+  background: none !important;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag{
+    background: none !important
+}
+
+.noneBoxShadow{
+  box-shadow: none !important
+}
