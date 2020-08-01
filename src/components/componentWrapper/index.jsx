@@ -139,11 +139,20 @@ export default class index extends Component {
                       />
                     </MDBCol>
 
-                    <MDBCol md={keyStep === 2 ? '12' : '6'}>
+                    <MDBCol md='6' className={keyStep === 2 ? 'd-none' : ''}>
                       <ButtonCpn
                         color='primary'
                         classname='customBtn'
                         child='Đăng nhập'
+                        onclick={() => receiveStepVal(2)}
+                      />
+                    </MDBCol>
+
+                    <MDBCol md='12' className={keyStep === 2 ? '' : 'd-none'}>
+                      <ButtonCpn
+                        color='primary'
+                        classname='customBtn'
+                        child='Xác thực'
                         onclick={() => receiveStepVal(2)}
                       />
                     </MDBCol>
